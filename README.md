@@ -83,42 +83,42 @@ L'infrastructure comprend :
 #### 🌐 VPC Configuration
 Configuration du Virtual Private Cloud (VPC) qui constitue le réseau principal de l'infrastructure AWS.
 
-![VPC](vpc.png)
+![VPC](screenshots/vpc.png)
 
 ---
 
 #### 🌍 Subnets
 Création des sous-réseaux publics et privés pour isoler les différentes ressources.
 
-![Subnets](lessubnet.png)
+![Subnets](screenshots/lessubnet.png)
 
 ---
 
 #### 🚪 Internet Gateway & Default Route
 Configuration de la passerelle Internet permettant l'accès au réseau public.
 
-![Gateway](passerelle.png)
+![Gateway](screenshots/passerelle.png)
 
 ---
 
 #### 🛣️ Public Route Table
 Configuration de la table de routage du réseau public.
 
-![Route Table](tables-de-routage.png)
+![Route Table](screenshots/tables-de-routage.png)
 
 ---
 
 #### 🔒 Private Route Table
 Configuration de la table de routage dédiée aux sous-réseaux privés.
 
-![Private Route Table](table-de-routage-privée.png)
+![Private Route Table](screenshots/table-de-routage-privée.png)
 
 ---
 
 #### 🌍 NAT Gateway
 Configuration du NAT Gateway afin de permettre aux ressources privées d'accéder à Internet en toute sécurité.
 
-![NAT](nat.png)
+![NAT](screenshots/nat.png)
 
 ---
 
@@ -127,35 +127,35 @@ Configuration du NAT Gateway afin de permettre aux ressources privées d'accéde
 #### 🖥️ Windows Server Deployment
 Déploiement et configuration du serveur Windows dans AWS.
 
-![Windows Server](WIN-serv.png)
+![Windows Server](screenshots/WIN-serv.png)
 
 ---
 
 #### 🌐 Active Directory Domain Services
 Installation d'Active Directory Domain Services (AD DS), DNS et promotion du serveur en contrôleur de domaine.
 
-![AD DS](installation-ac-d,dns,dhcp.png)
+![AD DS](screenshots/installation-ac-d,dns,dhcp.png)
 
 ---
 
 #### 🏢 Domain Creation
 Création du domaine Active Directory.
 
-![Domain](créiation-de-domain-dans-ac-d.png)
+![Domain](screenshots/créiation-de-domain-dans-ac-d.png)
 
 ---
 
 #### 👥 Organizational Units (OU)
 Création des unités d'organisation (OU) pour structurer les utilisateurs et les ordinateurs.
 
-![OU](les-ou-ad.png)
+![OU](screenshots/les-ou-ad.png)
 
 ---
 
 #### 🔐 Group Policy (GPO)
 Création et configuration des stratégies de groupe (GPO).
 
-![GPO](creéiation-de-gpo.png)
+![GPO](screenshots/creéiation-de-gpo.png)
 
 ---
 
@@ -164,28 +164,28 @@ Création et configuration des stratégies de groupe (GPO).
 #### 🐧 Ubuntu EC2 Instance
 Déploiement du serveur Ubuntu destiné à héberger les applications.
 
-![Ubuntu](ubntu-app.png)
+![Ubuntu](screenshots/ubntu-app.png)
 
 ---
 
 #### ☕ Java Installation
 Installation de Java nécessaire à l'exécution des applications.
 
-![Java](installation-java.png)
+![Java](screenshots/installation-java.png)
 
 ---
 
 #### 🐱 Apache Tomcat
 Installation et configuration du serveur Apache Tomcat.
 
-![Tomcat](tomcat-installation.png)
+![Tomcat](screenshots/tomcat-installation.png)
 
 ---
 
 #### 🌐 Apache Web Server
 Configuration du serveur web Apache.
 
-![Apache](apache.png)
+![Apache](screenshots/apache.png)
 
 ---
 
