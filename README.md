@@ -155,7 +155,7 @@ Création des unités d'organisation (OU) pour structurer les utilisateurs et le
 #### 🔐 Group Policy (GPO)
 Création et configuration des stratégies de groupe (GPO).
 
-![GPO](créiation-de-gppo.png)
+![GPO](creéiation-de-gpo.png)
 
 ---
 
