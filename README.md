@@ -141,7 +141,7 @@ Installation d'Active Directory Domain Services (AD DS), DNS et promotion du ser
 #### 🏢 Domain Creation
 Création du domaine Active Directory.
 
-![Domain](créiation-de-domain-d....png)
+![Domain](créiation-de-domain-dans-ac-d.png)
 
 ---
 
