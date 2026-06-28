@@ -76,106 +76,122 @@ L'infrastructure comprend :
 
 ---
 
-# 📷 Captures d'écran
+## 📸 Screenshots
 
-## VPC
+### 🏗️ AWS Infrastructure
 
-![](vpc(1).png)
+#### 🌐 VPC Configuration
+Configuration du Virtual Private Cloud (VPC) qui constitue le réseau principal de l'infrastructure AWS.
 
----
-
-## Sous-réseaux
-
-![](les subnet.png)
+![VPC](vpc.png)
 
 ---
 
-## Internet Gateway
+#### 🌍 Subnets
+Création des sous-réseaux publics et privés pour isoler les différentes ressources.
 
-![](passreelle.png)
-
----
-
-## Elastic IP
-
-![](elstic ip.png)
+![Subnets](les subnet.png)
 
 ---
 
-## NAT Gateway
+#### 🚪 Internet Gateway & Default Route
+Configuration de la passerelle Internet permettant l'accès au réseau public.
 
-![](nat.png)
-
----
-
-## Route Table (Public)
-
-![](tables-de-routage.png)
-
-## Route Table (Private)
-
-![](table-de-routage-prive.png)
-
-## Instance Ubuntu Web Server
-
-![](ec2-ubuntu-web-server.png)
-
-## Apache Web Server
-
-![](apache.png)
----
-
-## Instance Ubuntu Application
-
-![](ubntu-app.png)
+![Gateway](passerelle.png)
 
 ---
 
-## Installation Java
+#### 🛣️ Public Route Table
+Configuration de la table de routage du réseau public.
 
-![](installation java .png)
-
----
-
-## Installation Apache Tomcat
-
-![](tomcat installation .png)
+![Route Table](tables de routage.png)
 
 ---
 
-## Instance Windows Server
+#### 🔒 Private Route Table
+Configuration de la table de routage dédiée aux sous-réseaux privés.
 
-![](WIN-serv.png)
-
----
-
-## Installation AD DS, DNS et DHCP
-
-![](installation ac-d,dns,dhcp.png)
+![Private Route Table](table de routage privée.png)
 
 ---
 
-## Création du domaine Active Directory
+#### 🌍 NAT Gateway
+Configuration du NAT Gateway afin de permettre aux ressources privées d'accéder à Internet en toute sécurité.
 
-![](créiation de domain dans ac-d.png)
-
----
-
-## Création des Organizational Units
-
-![](les ou ad.png)
+![NAT](nat.png)
 
 ---
 
-## Création des Group Policies
+## 💻 Windows Server
 
-![](creéiation de gppo.png)
+#### 🖥️ Windows Server Deployment
+Déploiement et configuration du serveur Windows dans AWS.
+
+![Windows Server](WIN-serv.png)
 
 ---
 
-# 👨‍💻 Auteur
+#### 🌐 Active Directory Domain Services
+Installation d'Active Directory Domain Services (AD DS), DNS et promotion du serveur en contrôleur de domaine.
 
-**Ihab Hadaf**
+![AD DS](installation ac-d,dns,d....png)
 
-Étudiant Ingénierie Informatique  
-Spécialité : Systèmes, Réseaux et Cloud
+---
+
+#### 🏢 Domain Creation
+Création du domaine Active Directory.
+
+![Domain](créiation de domain d....png)
+
+---
+
+#### 👥 Organizational Units (OU)
+Création des unités d'organisation (OU) pour structurer les utilisateurs et les ordinateurs.
+
+![OU](les ou ad.png)
+
+---
+
+#### 🔐 Group Policy (GPO)
+Création et configuration des stratégies de groupe (GPO).
+
+![GPO](créiation de gppo.png)
+
+---
+
+## ☁️ Ubuntu Application Server
+
+#### 🐧 Ubuntu EC2 Instance
+Déploiement du serveur Ubuntu destiné à héberger les applications.
+
+![Ubuntu](ubntu app.png)
+
+---
+
+#### ☕ Java Installation
+Installation de Java nécessaire à l'exécution des applications.
+
+![Java](installation java.png)
+
+---
+
+#### 🐱 Apache Tomcat
+Installation et configuration du serveur Apache Tomcat.
+
+![Tomcat](tomcat installation.png)
+
+---
+
+#### 🌐 Apache Web Server
+Configuration du serveur web Apache.
+
+![Apache](apache .png)
+
+---
+
+## 📊 Monitoring
+
+#### 📈 Elasticsearch
+Installation et configuration d'Elasticsearch pour l'indexation et l'analyse des logs.
+
+![Elasticsearch](elstic ip.png)
