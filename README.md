@@ -90,7 +90,7 @@ Configuration du Virtual Private Cloud (VPC) qui constitue le réseau principal 
 #### 🌍 Subnets
 Création des sous-réseaux publics et privés pour isoler les différentes ressources.
 
-![Subnets](les subnet.png)
+![Subnets](lessubnet.png)
 
 ---
 
