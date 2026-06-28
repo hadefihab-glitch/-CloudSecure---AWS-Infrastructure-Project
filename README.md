@@ -134,7 +134,7 @@ Déploiement et configuration du serveur Windows dans AWS.
 #### 🌐 Active Directory Domain Services
 Installation d'Active Directory Domain Services (AD DS), DNS et promotion du serveur en contrôleur de domaine.
 
-![AD DS](installation-ac-d,dns,d....png)
+![AD DS](installation-ac-d,dns,dhcp.png)
 
 ---
 
