@@ -104,14 +104,14 @@ Configuration de la passerelle Internet permettant l'accès au réseau public.
 #### 🛣️ Public Route Table
 Configuration de la table de routage du réseau public.
 
-![Route Table](tables de routage.png)
+![Route Table](tables-de-routage.png)
 
 ---
 
 #### 🔒 Private Route Table
 Configuration de la table de routage dédiée aux sous-réseaux privés.
 
-![Private Route Table](table de routage privée.png)
+![Private Route Table](table-de-routage-privée.png)
 
 ---
 
