@@ -127,7 +127,7 @@ L'infrastructure comprend :
 
 ## Instance Ubuntu Application
 
-![](ubntu app.png)
+![](ubnt-app.png)
 
 ---
 
