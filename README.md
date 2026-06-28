@@ -110,26 +110,19 @@ L'infrastructure comprend :
 
 ## Route Table (Public)
 
-![](tables de routage.png)
-
----
+![](tables-de-routage.png)
 
 ## Route Table (Private)
 
-![](table de routage privé.png)
-
----
+![](table-de-routage-prive.png)
 
 ## Instance Ubuntu Web Server
 
-![](EC2 UBNTU WEB SERVER.png)
-
----
+![](ec2-ubuntu-web-server.png)
 
 ## Apache Web Server
 
-![](apache (2).png)
-
+![](apache.png)
 ---
 
 ## Instance Ubuntu Application
