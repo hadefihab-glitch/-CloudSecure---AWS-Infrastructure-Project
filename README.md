@@ -134,28 +134,28 @@ Déploiement et configuration du serveur Windows dans AWS.
 #### 🌐 Active Directory Domain Services
 Installation d'Active Directory Domain Services (AD DS), DNS et promotion du serveur en contrôleur de domaine.
 
-![AD DS](installation ac-d,dns,d....png)
+![AD DS](installation-ac-d,dns,d....png)
 
 ---
 
 #### 🏢 Domain Creation
 Création du domaine Active Directory.
 
-![Domain](créiation de domain d....png)
+![Domain](créiation-de-domain-d....png)
 
 ---
 
 #### 👥 Organizational Units (OU)
 Création des unités d'organisation (OU) pour structurer les utilisateurs et les ordinateurs.
 
-![OU](les ou ad.png)
+![OU](les-ou-ad.png)
 
 ---
 
 #### 🔐 Group Policy (GPO)
 Création et configuration des stratégies de groupe (GPO).
 
-![GPO](créiation de gppo.png)
+![GPO](créiation-de-gppo.png)
 
 ---
 
@@ -164,28 +164,28 @@ Création et configuration des stratégies de groupe (GPO).
 #### 🐧 Ubuntu EC2 Instance
 Déploiement du serveur Ubuntu destiné à héberger les applications.
 
-![Ubuntu](ubntu app.png)
+![Ubuntu](ubntu-app.png)
 
 ---
 
 #### ☕ Java Installation
 Installation de Java nécessaire à l'exécution des applications.
 
-![Java](installation java.png)
+![Java](installation-java.png)
 
 ---
 
 #### 🐱 Apache Tomcat
 Installation et configuration du serveur Apache Tomcat.
 
-![Tomcat](tomcat installation.png)
+![Tomcat](tomcat-installation.png)
 
 ---
 
 #### 🌐 Apache Web Server
 Configuration du serveur web Apache.
 
-![Apache](apache .png)
+![Apache](apache.png)
 
 ---
 
